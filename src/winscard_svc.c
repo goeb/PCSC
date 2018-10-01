@@ -886,7 +886,6 @@ static LONG MSGRemoveContext(SCARDCONTEXT hContext, SCONTEXT * threadContext)
 		}
 
 		hLockId = rContext->hLockId;
-		rContext->hLockId = 0;
 
 		if (hCard != hLockId)
 		{
